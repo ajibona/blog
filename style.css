@@ -1,0 +1,243 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "figtree", sans-serif;
+}
+
+:root{
+    /* || Primary color */
+    --PrimaryYellow: hsl(47, 88%, 63%);
+
+    /* || Secondary Color */
+    --SecondaryWhite: hsl(0, 0%, 100%);
+    --SecondaryGrey: hsl(0, 0%, 50%);
+    --SecondaryBlack: hsl(0, 0%, 7%);
+}
+
+ body{
+    background-color: var(--PrimaryYellow);
+ }
+
+
+   /* Mobile View */
+   /* || section page layout */
+   section{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+   }
+
+
+
+   /* || innersection page layout */
+   .innersection{
+      background-color: var(--SecondaryWhite);
+      height: 450px;
+      width: 340px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      border: 1px solid #000;
+      box-shadow: 10px 8px 0px rgba(0, 0, 0, 1);
+      transition: 0.2s;
+   }
+   .innersection:hover{
+      box-shadow: 18px 15px 0px rgba(0, 0, 0, 1);
+   }
+
+
+
+   /* || Card page layout */
+   .card{
+      padding: 1rem;
+   }
+
+
+
+   /* || Uppercard page layout */
+   .uppercard{
+      background-color: var(--PrimaryYellow);
+      background-image: url(../blog-preview-card-main/assets/images/illustration-article.svg);
+      height: 180px;
+      width: 300px;
+      border-radius: 15px;
+      margin-top: 10px;
+   }
+
+   /* || Lowercard page layout */
+   .lowercard{
+      margin-top: 20px;
+   }
+
+   .learning{
+      font-weight: 800;
+      font-size: 0.8rem;
+      padding: 8px;
+      width: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--PrimaryYellow);
+      border-radius: 5px;
+   }
+
+   h5{
+      margin-top: 10px;
+      font-weight: 600;
+      color: var(--SecondaryBlack);
+   }
+
+   h2{
+      font-size: 1.2rem;
+      margin-top: 15px;
+      font-weight: 800;
+      transition: 0.2s;
+   }
+   h2:hover, h2:visited{
+   color: var(--PrimaryYellow);
+   }
+
+   .language{
+      font-size: 0.9rem;
+      margin-top: 10px;
+      color: var(--SecondaryGrey);
+      line-height: 1.6;
+      font-weight: 600;
+   }
+
+   .profile{
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+   }
+   img{
+      width: 30px;
+      
+   }
+
+   h6{
+      margin-left: 10px;
+      color: var(--SecondaryBlack);
+      font-weight: 900;
+      font-size: 0.8rem;
+   }
+
+
+   /* Desktop Preview */
+
+   @media only screen and (min-width:768px) {
+      /* || section page layout */
+   section{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+   }
+
+
+   /* || innersection page layout */
+   .innersection{
+      background-color: var(--SecondaryWhite);
+      height: 450px;
+      width: 340px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      border: 1px solid #000;
+      box-shadow: 10px 8px 0px rgba(0, 0, 0, 1);
+      transition: 0.2s;
+   }
+   .innersection:hover{
+      box-shadow: 18px 15px 0px rgba(0, 0, 0, 1);
+   }
+
+
+
+   /* || Card page layout */
+   .card{
+      padding: 1rem;
+   }
+
+
+
+   /* || Uppercard page layout */
+   .uppercard{
+      background-color: var(--PrimaryYellow);
+      background-image: url(../blog-preview-card-main/assets/images/illustration-article.svg);
+      height: 180px;
+      width: 300px;
+      border-radius: 15px;
+      margin-top: 10px;
+   }
+
+   /* || Lowercard page layout */
+   .lowercard{
+      margin-top: 20px;
+   }
+
+   .learning{
+      font-weight: 800;
+      font-size: 0.8rem;
+      padding: 8px;
+      width: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--PrimaryYellow);
+      border-radius: 5px;
+   }
+
+   h5{
+      margin-top: 10px;
+      font-weight: 600;
+      color: var(--SecondaryBlack);
+   }
+
+   h2{
+      font-size: 1.2rem;
+      margin-top: 15px;
+      font-weight: 800;
+      transition: 0.2s;
+   }
+   h2:hover, h2:visited{
+   color: var(--PrimaryYellow);
+   }
+
+   .language{
+      font-size: 0.9rem;
+      margin-top: 10px;
+      color: var(--SecondaryGrey);
+      line-height: 1.6;
+      font-weight: 600;
+   }
+
+   .profile{
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+   }
+   img{
+      width: 30px;
+      
+   }
+
+   h6{
+      margin-left: 10px;
+      color: var(--SecondaryBlack);
+      font-weight: 900;
+      font-size: 0.8rem;
+   }
+   }
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
