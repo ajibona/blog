@@ -32,7 +32,6 @@
    }
 
 
-
    /* || innersection page layout */
    .innersection{
       background-color: var(--SecondaryWhite);
@@ -63,8 +62,8 @@
    .uppercard{
       background-color: var(--PrimaryYellow);
       background-image: url(../blog-preview-card-main/assets/images/illustration-article.svg);
-      height: 180px;
-      width: 300px;
+      height: 201px;
+      width: 336px;
       border-radius: 15px;
       margin-top: 10px;
    }
